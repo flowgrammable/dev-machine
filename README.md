@@ -11,9 +11,7 @@
  ```sh
  $ git clone git@github.com:flowgrammable/dev-machine.git
  ```
-4. Configure additional shared folders between the host and guest machine(s).
- - Edit `Vagrantfile` by following the comments in the section labeled 'Share an additional folder to the guest VM'.
-5. Run the commands below. The result will be three virtual machines running in virtualbox. 
+4. Run the commands below. The result will be three virtual machines running in virtualbox. 
 
  ```sh
  $ cd dev-machine
@@ -34,7 +32,7 @@ Source                   DUT                   Sink
 
 The development environment consists of three machines: source, dut, sink. 
 The dut machine acts as a switch between the source and sink machine and will
-run the flowpath instance. The enp0s3 interface of each device is used for 
+run the [flowpath](https://github.com/flowgrammable/freeflow/blob/master/flowpath) instance. The enp0s3 interface of each device is used for 
 management. You can connect to each device with the following commands:
 
 ```
