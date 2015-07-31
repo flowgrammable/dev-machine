@@ -34,7 +34,7 @@ Source                   DUT                   Sink
 
 The development environment consists of three machines: source, dut, sink. 
 The dut machine acts as a switch between the source and sink machine and will
-run the noproto instance. The enp0s3 interface of each device is used for 
+run the flowpath instance. The enp0s3 interface of each device is used for 
 management. You can connect to each device with the following commands:
 
 ```
